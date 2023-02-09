@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: black;
+    background-color: #ccc;
 }
 
 .backBdy{
@@ -31,7 +31,7 @@ body{
 
 .logo{
     position: absolute;
-    padding: 10px;
+    padding: 5px 10px ;
     display: inline-block;
 }
 
@@ -39,7 +39,7 @@ body{
     color: #ababab;
     font-family: 'Benne', serif;
     font-weight: bold;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .nav-content{
@@ -64,5 +64,9 @@ body{
 }
 
 .menuBtn{
+    display: none;
+}
+
+.valBar{
     display: none;
 }
